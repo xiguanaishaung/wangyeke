@@ -1,0 +1,48 @@
+CREATE DATABASE StudentMIS
+use StudentMIS
+CREATE TABLE Departmnt
+(  dID int PRIMARY KEY IDENTITY(1,1),
+   dCode varchar(10)NOT NULL,
+   dName varchar(30) NOT NULL,
+   dPhone varcher(20)
+)
+GO
+
+
+
+
+CREATE DATABASE StudentMIS
+use StudentMIS
+CREATE TABLE Special
+(  spID int PRIMARY KEY IDENTITY(1,1),
+   dID int NOT NULL,
+   splen int,
+   spCode char(6) NOT NULL,
+   spName char(30) NOT NULL,
+   spAim varchar(2000)  
+)
+GO
+
+
+CREATE TYPE UTName
+FROM varcher(30)NOT NULL
+GO
+
+ALTER TABLE Class
+ALTER COULUMN cName URName,
+GO
+
+ALTER TABLE Class
+ADD CTest int NOT NULL,
+
+
+ALTER TABLE Class
+DROP COLUMN CTest
+
+
+DROP RABLE dbo.Class
+GO
+
+
+DROP TABLE T1,T2,T3
+GO
