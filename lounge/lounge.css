@@ -16,5 +16,36 @@ h2 {
 }
 body {
 	font-size: small;
-	font-family: Verdana， Helvetica， Arial;
-	line-height: 1.6em;
+	font-family: Verdana, Helvetica, Arial;
+	line-height: 1.1em;
+}
+
+.guarantee {
+  border-color:        white;
+  border-width:        1px;
+  border-style:      dashed;
+  background-color:    #a7cece;
+	border-color:        #a7cece;
+  border-width:        medium;
+  border-style:        dashed;
+  background-color:    #a7cece;
+	border-top-color: black;
+	border-bottom-style: dashed;
+  padding:             25px; 
+  margin:              30px;
+	color: #444444;
+	font-style: italic;
+	line-height: 1.9em;
+	font-family: Georgia, "Times New Roman";
+	background-image: url(images/background.gif);
+	background-repeat:no-repeat;
+  background-position: top left;
+	padding: 25px;
+  padding-left: 80px;
+	margin-right: 250px;
+	border-radius:15px;
+	border-radius:3em;
+}
+/*画一个圆
+margin-right: 650px;
+border-radius: 650px;*/
