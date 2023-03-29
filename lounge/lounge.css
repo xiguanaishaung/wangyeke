@@ -17,7 +17,7 @@ h2 {
 body {
 	font-size: small;
 	font-family: Verdana, Helvetica, Arial;
-	line-height: 1.1em;
+	line-height: 1.9em;
 }
 
 .guarantee {
@@ -45,6 +45,32 @@ body {
 	margin-right: 250px;
 	border-radius:15px;
 	border-radius:3em;
+}
+
+.elixirs {
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+	width: 200px;
+	padding-right:  20px;
+	padding-bottom: 20px;
+	padding-left:   20px;
+
+	margin-left:    20px;
+
+	background-image:    url(images/cocktail.gif);
+	background-repeat:   repeat-x;
+
+	text-align:          center;
+}
+.elixirs h2 {color:black
+}
+
+.elixirs {
+	line-height: 1;
+}
+
+.elixirs h3 { color: #d12c47; 
 }
 /*画一个圆
 margin-right: 650px;
