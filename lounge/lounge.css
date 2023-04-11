@@ -69,6 +69,7 @@ body {
 
 .elixirs {
 	line-height: 1;
+	float: right;
 }
 
 .elixirs h3 { color: #d12c47; 

@@ -9,3 +9,11 @@ p#bbb {
 p {
    color:aqua;
 }
+
+body h1 {
+    color:chartreuse;
+}
+
+h1 {
+   color:hotpink;
+}
