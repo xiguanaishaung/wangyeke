@@ -15,6 +15,7 @@
   border:thin solid lightsteelblue;
 }
 .child {
+  position: relative;
   width: 10vw;
   height: 5vw;
   margin: 5px;
@@ -24,7 +25,7 @@
 }
 
 .move {
-  position: relative;
+  position: absolute;
   top: -20px;
   left: 20px;
 }
