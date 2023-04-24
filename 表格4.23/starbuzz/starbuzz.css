@@ -15,15 +15,18 @@ body {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
+  display: table-cell;
+  vertical-align: top;
 }
 
 .sidebar {
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
+  display: table-cell;
+  vertical-align: top;
 }
+
 
 .footer {
   background-color: #675c47;
@@ -61,32 +64,21 @@ a:visited {
 
 div.tableContainer {
   display: table;
+  border-spacing: 10px;
 }
 
 div.talbeRow {
   display: table-row;
 }
 
-.main {
-  display: table-cell;
 
-}
-
-.siderbar {
-  display: table-cell;
-}
-
-div.tableContainer {
-  display: talbe;
-  border-spacing: 10px;  /* 为表格中地单元格设置 10px 的边框间距（相当于外边距）*/
-}
-
-.main {
-  display: table-cell;
-  vertical-align: top;  /* 垂直对齐: 顶端对齐 */
-}
-
-.siderbar {
-  display: table-cell;
+.drinks {
+    background-color: #efe5d0;
+    padding: 15px;
+    display: table-cell;
   vertical-align: top;
+}
+
+.headerLogo {
+  float:right;
 }
