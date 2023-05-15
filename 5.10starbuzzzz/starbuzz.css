@@ -138,3 +138,24 @@ div.tablerow{
 .coupon a, img{
 	border: none;
 }
+
+ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+
+ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+ul li.selected {
+	background-color: #c8b99c;
+}
