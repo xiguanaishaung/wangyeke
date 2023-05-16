@@ -1,0 +1,110 @@
+    <div class="Home-up">
+        <div class="Home-up-title">
+            <h1>THE VEHICLES</h1>
+        </div>
+        <div class="Home-up-left">
+            <div class="Home-up-left-title">
+                <h1 style="color: white;position: relative;top: 20%;">DRAGON</h1>
+                <p style="color: white; position: relative;top: 30%;">The Dragon spacecraft is capable of carrying up to 7 passengers to and from Earth orbit and beyond. It is the only spacecraft currently flying that is capable of returning significant amounts of cargo to Earth, and is the first private spacecraft to take humans to the space station.</p>
+            </div>
+            <span style="transition: all 1s;cursor: pointer; color: white;width: 300px;height: 50px;background-color: black;display: inline-block;position: relative;top: 20%;left: 8%;border: 5px solid white;font-size: 30px;text-align: center;line-height: 50px;" id="span-up">Learn More</span>
+        </div>
+        <div class="Home-up-right">
+            <video src="../static/img/dragon-comp.mp4" controls style="width: 90%;height: 90%;object-fit: contain;position: absolute;left: 10%; top: 25%;"loop playsinline muted></video>
+        </div>
+    </div>
+    <div class="Home-jet">
+        <div class="Home-img-left">
+            <img src="../static/img/fc.jpg" alt="">
+        </div>
+        <div class="Home-title-right">
+            <div class="Home-title-right-item">
+                <h1 style="color: white;font-size: 50px;position: relative;top: 20%;">STARSHIP</h1>
+                <p style="color: white; position: relative;top: 30%;">Starship is the fully reusable spacecraft and second stage of the Starship system. The vehicle offers an integrated payload section and is capable of carrying passengers and cargo to Earth orbit, planetary destinations, and between destinations on Earth.</p>
+                <span style="transition: all 1s;cursor: pointer; color: white;width: 300px;height: 100px;background-color: black;display: inline-block;position: relative;top: 65%;left: 3%;border: 5px solid white;font-size: 30px;text-align: center;line-height: 100px;" id="span-up">Learn More</span>
+
+
+
+
+
+
+css
+.Home-up{
+    width: 100%;
+    height: 120%;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+.Home-up-left{
+    width: 40%;
+    height: 40%;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    z-index: 100;
+}
+.Home-up-right{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.Home-up-title{
+    position: absolute;
+    z-index: 100; 
+    width: 400px;
+    height: 50px;
+    /* background-color: red; */
+    font-size: 20px;
+    color: white;
+    left: 640px;
+    margin-top: 120px;
+}
+.Home-up-left-title{
+    width: 80%;
+    height: 300px;
+    /* background-color: red; */
+    position: relative;
+    top: 20%;
+    left: 8%;
+}
+#span-up:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+.Home-jet{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+}
+.Home-jet:hover .Home-img-left img{
+    margin-top: 20%;
+    opacity: 1;
+}
+.Home-jet:hover .Home-jet-Earth img{
+
+    opacity: 1;
+}
+
+.Home-img-left{
+    width: 60%;
+    height: 120%;
+    /* background-color: gold; */
+    position: relative;
+}
+.Home-img-left img{
+    width: 90%;
+    height: 52%;
+    margin-top: 24%;
+    opacity: 0.6;
+    transition: all 1s;
+}
+.Home-title-right{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+}
